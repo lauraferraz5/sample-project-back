@@ -10,7 +10,9 @@ Directory development to list registered employees, register new ones and edit e
 
 Create a .env file with the follow content:
 
+```
 DB_CONNECTION="mongodb+srv://kuvio:iSJGdOBx8WOJX4DT@cluster0.nzts2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+```
 
 ## 🚀 Technologies
 
@@ -18,6 +20,10 @@ DB_CONNECTION="mongodb+srv://kuvio:iSJGdOBx8WOJX4DT@cluster0.nzts2.mongodb.net/m
 - Express
 - Mongoose
 - MongoDB
+
+# Front
+
+The client app repositorie can be found <a target="_blank" href="https://github.com/lauraferraz5/sample-project-front">HERE</a>!
 
 ## Folder structures
 
