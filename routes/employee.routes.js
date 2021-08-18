@@ -60,4 +60,19 @@ router.patch("/update/:id", async (req, res) => {
   }
 });
 
+router.delete("/delete/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const employeeInfo = await Employee.deleteOne({
+      _id: id,
+    });
+
+    return res.status(200).json({});
+  } catch (err) {
+    console.error(err);
+    return res.status(500).json({ msg: err });
+  }
+});
+
 module.exports = router;
