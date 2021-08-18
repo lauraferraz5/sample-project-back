@@ -14,7 +14,7 @@ Create a .env file with the follow content:
 DB_CONNECTION="mongodb+srv://kuvio:iSJGdOBx8WOJX4DT@cluster0.nzts2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 ```
 
-# Run the project
+# Run the server
 
 In the terminal, run the follow command:
 
